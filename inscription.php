@@ -16,22 +16,22 @@
         <div class="container">
             <div class="form-container">
                 <h2>Inscription</h2>
-                <form>
+                <form method="post" action="validationInscription.php">
                     <div>
-                        <label for="nom">Nom :</label> <br>
-                        <input type="text" id="nom" name="nom" required>
+                        <label for="nomUser">Nom :</label> <br>
+                        <input class="form-input" type="text" id="nom" name="nomUser" required>
                     </div>
                     <div>
                         <label for="email">Email :</label> <br>
-                        <input type="email" id="email" name="email" required>
+                        <input class="form-input" type="email" id="email" name="email" required>
                     </div>
                     <div>
                         <label for="motdepasse">Mot de passe :</label> <br>
-                        <input type="password" id="motdepasse" name="motdepasse" required>
+                        <input class="form-input" type="password" id="motdepasse" name="motdepasse" required>
                     </div>
                     <div>
                         <label for="confirmationMotdepasse">Confirmation Mot de passe :</label> <br>
-                        <input type="password" id="confirmationMotdepasse" name="confirmationMotdepasse" required>
+                        <input class="form-input" type="password" id="confirmationMotdepasse" name="confirmationMotdepasse" required>
                     </div>
                     <button type="submit">S'Inscrire</button>
                 </form>
@@ -39,17 +39,18 @@
             <hr>
             <div class="form-container">
                 <h2>Connexion</h2>
-                <form>
+                <form method="post" action="validationConx.php">
                     <div>
-                        <label for="login-nom">Nom :</label><br>
-                        <input type="text" id="login-nom" name="login-nom" required>
+                        <label for="email">Email :</label><br>
+                        <input class="form-input" type="email" id="email" name="email" required>
                     </div>
                     <div>
-                        <label for="login-motdepasse">Mot de passe :</label><br>
-                        <input type="password" id="login-motdepasse" name="login-motdepasse" required>
+                        <label for="motdepasse">Mot de passe :</label><br>
+                        <input class="form-input" type="password" id="motdepasse" name="motdepasse" required>
                     </div>
                     <button type="submit">Se Connecter</button>
                 </form>
+                <a href="passforget.php">Mot De Passe Oublie ?</a>
             </div>
         </div>
     </div>

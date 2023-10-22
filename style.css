@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+hr {
+  border: solid 2.5px rgb(76, 175, 80);
+}
+form{
+  padding: 10px;
+}
+.home {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  background-color: rgb(76, 175, 80);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  color: white;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  width: 45%;
+  border: none;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.tach-container {
+  background-color: white;
+  padding: 8px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+}
+
+.tach-container button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.base-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.form-container2 {
+  padding: 20px 0;
+  width: 95%;
+  border: none;
+  margin: 0;
+}
+.grenBG {
+  background-color: rgb(76, 175, 80);
+}
+.redBG {
+  background-color: red;
+}
+
+.grenColor {
+  color: rgb(76, 175, 80);
+  font-weight: bold;
+}
+.redColor {
+  color: red;
+  font-weight: bold;
+}
+
+.home a {
+  text-decoration: none;
+  color: rgb(76, 175, 80);
+  font-size: 16px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-left: -60px;
+  text-align: center;
+  width: 130px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+.btndropdown {
+  color: rgb(76, 175, 80);
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.dropdown a:hover {
+  background-color: rgb(76, 175, 80);
+  color: white;
+}
